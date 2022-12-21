@@ -163,6 +163,11 @@ header .overlay .caption {
     text-align: center;
     margin-top: 300px;
 }
+@media screen and (max-width: 576px) {
+    header .overlay .caption {
+        margin-top: -30px;
+    }
+}
 header .overlay .caption span:first-of-type {
     font-weight: 700;
     color: #fff;
