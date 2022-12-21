@@ -113,7 +113,18 @@ header nav ul {
 }
 @media screen and (max-width: 576px) {
     header nav ul {
-        display: none;
+        float: none;
+        margin-top: 50px !important;
+        text-align: center;
+        width: 97%;
+        margin: 0 auto;
+        background-color: #555555;
+        transform: rotateX(90deg);
+        transform-origin: top center;
+        transition: 0.3s all ease;
+    }
+    header nav ul.active {
+        transform: rotateX(0deg);
     }
 }
 header nav ul li {
@@ -121,10 +132,21 @@ header nav ul li {
     color: #fff;
     padding: 0px 10px;
 }
+@media screen and (max-width: 576px) {
+    header nav ul li {
+        display: block;
+        padding: 12px 0;
+    }
+}
 header nav ul li a {
     color: #fff;
     font-size: 1.1em;
     transition: all 0.7s;
+}
+@media screen and (max-width: 576px) {
+    header nav ul li a {
+        padding: 12px 100px;
+    }
 }
 header nav ul li.active a {
     color: var(--main-color);
@@ -165,6 +187,23 @@ header .overlay .caption span:last-of-type {
         font-weight: 500;
         color: #fff;
         font-size: 1.3em;
+    }
+}
+.menu {
+    display: none;
+    float: right;
+}
+@media screen and (max-width: 576px) {
+    .menu {
+        display: block;
+        padding-top: 10px;
+    }
+    .menu span {
+        display: block;
+        height: 2.5px;
+        width: 27px;
+        background-color: #fff;
+        margin-bottom: 5px;
     }
 }
 /** Profile Section **/
