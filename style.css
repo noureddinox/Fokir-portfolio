@@ -27,6 +27,11 @@ a {
         font-size: 1.9em;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .heading-title {
+        padding-top: 70px;
+    }
+}
 .heading-title span {
     position: absolute;
     display: block;
@@ -46,6 +51,12 @@ a {
         left: 42%;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .heading-title span:first-of-type {
+        left: 44.5%;
+        width: 80px;
+    }
+}
 .heading-title span:nth-of-type(2) {
     width: 200px;
     left: 40.5%;
@@ -56,6 +67,11 @@ a {
         left: 30%;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .heading-title span:nth-of-type(2) {
+        left: 36%
+    }
+}
 .heading-title span:last-of-type {
     bottom: -12%;
     left: 45%;
@@ -64,6 +80,12 @@ a {
     .heading-title span:last-of-type {
         width: 70px;
         left: 42%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .heading-title span:last-of-type {
+        left: 44.5%;
+        width: 80px;
     }
 }
 /** Variables **/
@@ -83,6 +105,11 @@ header {
         margin-bottom: 50px;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    header {
+        margin-bottom: 70px;
+    }
+}
 header .overlay {
     position: absolute;
     top: 0;
@@ -97,6 +124,11 @@ header nav {
 @media screen and (max-width: 576px) {
     header nav {
         padding: 10px 15px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    header nav {
+        padding: 20px 30px;
     }
 }
 header nav a.logo {
@@ -182,6 +214,11 @@ header .overlay .caption h1 {
         font-size: 2.7em;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    header .overlay .caption h1 {
+        font-size: 3.1em;
+    }
+}
 header .overlay .caption span:last-of-type {
     font-weight: 200;
     color: #fff;
@@ -192,6 +229,11 @@ header .overlay .caption span:last-of-type {
         font-weight: 500;
         color: #fff;
         font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    header .overlay .caption span:last-of-type {
+        font-size: 1.6em
     }
 }
 .menu {
@@ -222,12 +264,23 @@ header .overlay .caption span:last-of-type {
         padding-right: 20px;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
 .container .profile {
     margin-bottom: 100px;
 }
 @media screen and (max-width: 576px) {
     .container .profile {
         margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .container .profile {
+        margin-bottom: 70px;
     }
 }
 .container .profile .img {
@@ -242,6 +295,12 @@ header .overlay .caption span:last-of-type {
     .container .profile .img {
         box-shadow: none;
         width: 100%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .container .profile .img {
+        margin: 0 auto 50px;
+        float: none;
     }
 }
 .container .profile .img .img-overlay {
@@ -266,6 +325,12 @@ header .overlay .caption span:last-of-type {
 }
 @media screen and (max-width: 576px) {
     .container .profile .caption {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .container .profile .caption {
+        float: none;
         width: 100%;
     }
 }
@@ -363,6 +428,14 @@ header .overlay .caption span:last-of-type {
         margin-bottom: 50px;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .our-services {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 70px;
+        margin-bottom: 70px;
+    }
+}
 .our-services .service i {
     font-size: 2em;
     color: var(--main-color);
@@ -387,6 +460,12 @@ header .overlay .caption span:last-of-type {
     margin-top: 100px;
     padding: 20px 5px;
     border-radius: 5px;
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .our-services .service {
+        width: calc(96% / 2);
+        margin-top: 50px;
+    }
 }
 @media screen and (max-width: 576px) {
     .our-services .service {
@@ -415,6 +494,13 @@ header .overlay .caption span:last-of-type {
         margin-bottom: 50px;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .our-portfolio {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 70px;
+    }
+}
 .our-portfolio h2 {
     margin-bottom: 100px;
     position: relative;
@@ -422,6 +508,11 @@ header .overlay .caption span:last-of-type {
 @media screen and (max-width: 576px) {
     .our-portfolio h2 {
         margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .our-portfolio h2 {
+        margin-bottom: 70px;
     }
 }
 .our-portfolio .list {
@@ -444,6 +535,11 @@ header .overlay .caption span:last-of-type {
 @media screen and (max-width: 576px) {
     .our-portfolio .images .img {
         width: 100%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .our-portfolio .images .img {
+        width: calc(91% / 2);
     }
 }
 .our-portfolio .images .img:not(.img:nth-of-type(3)) {
@@ -477,6 +573,11 @@ header .overlay .caption span:last-of-type {
 @media screen and (max-width: 576px) {
     .features {
         padding: 50px 20px
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .features {
+        padding: 70px 50px;
     }
 }
 .features .feature {
@@ -514,12 +615,24 @@ header .overlay .caption span:last-of-type {
         margin-bottom: 50px;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .clients-feedback {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 70px;
+    }
+}
 .clients-feedback > h2 {
     margin-bottom: 100px;
 }
 @media screen and (max-width: 576px) {
     .clients-feedback > h2 {
         margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .clients-feedback > h2 {
+        margin-bottom: 70px;
     }
 }
 .clients-feedback .feedback {
@@ -531,6 +644,11 @@ header .overlay .caption span:last-of-type {
     position: relative;
 }
 @media screen and (max-width: 576px) {
+    .clients-feedback .feedback {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
     .clients-feedback .feedback {
         width: 100%;
     }
@@ -554,6 +672,12 @@ header .overlay .caption span:last-of-type {
         z-index: 10;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .clients-feedback .feedback::before {
+        bottom: -7%;
+        left: 49.5%;
+    }
+}
 .clients-feedback .feedback::after {
     content: "";
     display: block;
@@ -571,6 +695,12 @@ header .overlay .caption span:last-of-type {
     .clients-feedback .feedback::after {
         bottom: -4.2%;
         left: 54.5%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .clients-feedback .feedback::after {
+        bottom: -7%;
+        left: 54.4%;
     }
 }
 .clients-feedback .feedback .triangle {
@@ -595,6 +725,13 @@ header .overlay .caption span:last-of-type {
         width: 100%;
         padding-left: 15px;
         padding-top: 50%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .clients-feedback .feedback .caption {
+        width: 100%;
+        padding-left: 22px;
+        padding-top: 22%;
     }
 }
 .clients-feedback .feedback .caption > h2 {
@@ -627,6 +764,11 @@ header .overlay .caption span:last-of-type {
         left: 25%;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .clients-feedback .feedback img {
+        left: 30%;
+    }
+}
 /** Our Blog Style **/
 .our-blog {
     padding: 0px 200px 100px;
@@ -635,6 +777,11 @@ header .overlay .caption span:last-of-type {
 @media screen and (max-width: 576px) {
     .our-blog {
         padding: 0px 20px 50px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .our-blog {
+        padding: 0px 50px 70px;
     }
 }
 .our-blog .cards .card {
@@ -647,6 +794,12 @@ header .overlay .caption span:last-of-type {
     .our-blog .cards .card {
         width: 100%;
         margin-bottom: 25px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .our-blog .cards .card {
+        width: calc(91% / 2);
+        margin-right: 4%;
     }
 }
 .our-blog .cads .card:last-of-type {
@@ -710,12 +863,24 @@ header .overlay .caption span:last-of-type {
         padding-bottom: 50px;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .contact {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 70px;
+    }
+}
 .contact > h2 {
     margin-bottom: 100px;
 }
 @media screen and (max-width: 576px) {
     .contact > h2 {
         margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+    .contact >h2 {
+        margin-bottom: 70px;
     }
 }
 .contact form fieldset {
@@ -734,6 +899,11 @@ header .overlay .caption span:last-of-type {
     width: calc(96% / 2);
 }
 @media screen and (max-width: 576px) {
+    .contact form fieldset input:first-of-type, .contact form fieldset input:nth-of-type(2) {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1080px) {
     .contact form fieldset input:first-of-type, .contact form fieldset input:nth-of-type(2) {
         width: 100%;
     }
